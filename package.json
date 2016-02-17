@@ -1,0 +1,23 @@
+{
+  "name": "emergency-compliment",
+  "version": "1.0.0",
+  "description": "hey i like your shoes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeTogether/emergency-compliment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NodeTogether/emergency-compliment/issues"
+  },
+  "homepage": "https://github.com/NodeTogether/emergency-compliment#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
