@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/NodeTogether/emergency-compliment#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "motivations": "^1.0.1",
+    "pick-one": "^1.0.0"
   }
 }
