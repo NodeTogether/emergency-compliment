@@ -14,10 +14,12 @@ app.set('view engine', 'handlebars');
 
 const pickOne = require('pick-one');
 const motivations = require('motivations');
+const catImages = [1, 2, 3, 4, 5, 6];
+
 
 app.get('/', function(request, response) {
   var motivation = pickOne(motivations);
-  var image = pickOne([1, 2, 3, 4]);
+  var image = pickOne(catImages);
   response.render('motivation', { motivation, image });
 });
 
