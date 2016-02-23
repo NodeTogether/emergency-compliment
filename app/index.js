@@ -2,6 +2,8 @@ const express = require('express');
 const exphbs  = require('express-handlebars');
 const app = express();
 
+app.use(express.static('./app/public'));
+
 app.engine('handlebars', exphbs({
   defaultLayout: 'main', 
   layoutsDir:'./app/views/layouts'
