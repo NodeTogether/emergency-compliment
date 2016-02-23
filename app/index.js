@@ -17,7 +17,8 @@ const motivations = require('motivations');
 
 app.get('/', function(request, response) {
   var motivation = pickOne(motivations);
-  response.render('motivation', { motivation });
+  var image = pickOne([1, 2, 3, 4]);
+  response.render('motivation', { motivation, image });
 });
 
 module.exports = app;
